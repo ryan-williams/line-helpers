@@ -7,6 +7,7 @@ alias j,s="joyn ', '"
 alias j,n="joyn ','$'\n'"
 alias js,="joyn ', '"
 alias jns="joyn ' '"
+alias jnt="joyn $'\t'"
 alias jnb="joyn ''"
 alias jb="joyn ''"
 
@@ -36,6 +37,8 @@ defn dll drop-last-lines
 defn kll drop-last-lines
 
 defn enl every-nth-line
+defn e2l every-nth-line 2
+defn eol every-nth-line 2
 defn e4l every-nth-line 4
 
 defn N wc -l
