@@ -8,6 +8,8 @@ alias j,n="joyn ','$'\n'"
 alias js,="joyn ', '"
 alias jns="joyn ' '"
 alias jnt="joyn $'\t'"
+alias jntn="joyn '\n\t'"
+alias jtn="joyn '\n\t'"
 alias jnb="joyn ''"
 alias jb="joyn ''"
 
