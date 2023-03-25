@@ -49,3 +49,5 @@ defn wl wc -l
 defn n1 count-lines
 defn wcc wc -c
 
+defn eif print-if
+defn pnf print-if
