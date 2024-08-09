@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+pattern="$1"; shift
+sed -e "1,/$pattern/ d"

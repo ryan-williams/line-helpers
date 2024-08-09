@@ -51,3 +51,6 @@ defn wcc wc -c
 
 defn eif print-if
 defn pnf print-if
+
+defn pla print-lines-after
+defn plf print-lines-from

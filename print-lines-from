@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+pattern="$1"; shift
+sed -ne "/$pattern/,$ p" "$@"
