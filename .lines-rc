@@ -54,3 +54,9 @@ defn pnf print-if
 
 defn pla print-lines-after
 defn plf print-lines-from
+
+normalize_newlines() {
+    sed -i 's/\r$//' "$@"
+}
+export -f normalize_newlines
+defn nnl normalize_newlines
